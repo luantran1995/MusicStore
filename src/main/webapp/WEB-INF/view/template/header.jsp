@@ -5,7 +5,7 @@
 <html>
 <head>
 
-<title> NashTech Music Store</title>
+<title>  Music Store</title>
 
 
 <!-- Bootstrap core CSS -->

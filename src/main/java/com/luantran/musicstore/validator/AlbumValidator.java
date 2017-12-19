@@ -20,7 +20,7 @@ public class AlbumValidator implements Validator {
 
 	@Override
 	public void validate(Object c, Errors errors) {
-		Pattern pattern = Pattern.compile("^[a-zA-Z0-9 ]*$", Pattern.CASE_INSENSITIVE);
+		Pattern pattern = Pattern.compile("^[a-zA-Z0-9 ]*$");
 
 		AlbumVO album = (AlbumVO) c;
 		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "price", "NotEmpty");

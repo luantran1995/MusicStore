@@ -12,7 +12,6 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public void save(Users user) {
-//        user.setRoles(new HashSet<>(roleRepository.findAll()));
 	
         userRepository.save(user);
         System.out.println("save user ");
